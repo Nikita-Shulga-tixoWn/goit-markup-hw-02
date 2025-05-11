@@ -14,10 +14,6 @@ a {
     color: inherit;
 }
 
-.header {
-    padding: 24px 0;
-}
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -30,11 +26,6 @@ a {
 
 .logo-accent {
     color: #2e2f42;
-}
-
-.nav-list {
-    display: flex;
-    gap: 40px;
 }
 
 .nav-link {
@@ -54,11 +45,6 @@ a {
     font-style: normal;
 }
 
-.contacts-list {
-    display: flex;
-    gap: 40px;
-}
-
 .contacts-link {
     font-size: 16px;
     line-height: 1.5;
@@ -72,9 +58,7 @@ a {
 }
 
 .hero-section {
-    padding: 188px 0;
     background-color: #2e2f42;
-    text-align: center;
     color: #ffffff;
 }
 
@@ -82,7 +66,6 @@ a {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #ffffff;
 }
 
@@ -99,19 +82,6 @@ a {
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
-}
-
-.features-section {
-    padding: 120px 0;
-}
-
-.features-list {
-    display: flex;
-    gap: 24px;
-}
-
-.features-item {
-    width: calc((100% - 72px) / 4);
 }
 
 .features-title,
@@ -136,59 +106,26 @@ a {
 
 .team-section {
     background-color: #f4f4fd;
-    padding: 120px 0;
 }
-
-.team-list {
-    display: flex;
-    gap: 24px;
-    text-align: center;
+.section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .team-item {
     background-color: #ffffff;
-    border-radius: 0 0 4px 4px;
-}
-
-.team-name {
-    margin-top: 32px;
-    margin-bottom: 8px;
-}
-
-.team-position {
-    margin-bottom: 32px;
-}
-
-.portfolio-section {
-    padding: 120px 0;
-}
-
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
 }
 
 .portfolio-item {
     background-color: #ffffff;
-    width: calc((100% - 48px) / 3);
-}
-
-.portfolio-title {
-    margin-top: 32px;
-    margin-bottom: 8px;
-    padding: 0 16px;
-}
-
-.portfolio-category {
-    padding: 0 16px 32px;
 }
 
 .footer {
     background-color: #2e2f42;
     color: #f4f4fd;
-    padding: 100px 0;
-    text-align: center;
 }
 
 .footer .logo {
@@ -199,8 +136,6 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer .logo-accent {
@@ -209,4 +144,5 @@ a {
 
 .footer-text {
     width: 264px;
-    margin: 0 auto; }
+    color: #F4F4FD;
+}
