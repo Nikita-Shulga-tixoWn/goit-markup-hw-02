@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
-    margin: 0;
 }
 
 ul {
@@ -145,6 +144,5 @@ a {
 }
 
 .footer-text {
-    width: 264px;
     color: #F4F4FD;
 }
